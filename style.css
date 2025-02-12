@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: fantasy;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -102,9 +103,57 @@ h2 {
     background-color: rgb(87, 87, 193);
     color: white;
     font-size: 1.5rem;
+    text-align: center;
     width: 250px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 10px rgb(89, 0, 204);
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
+.phones {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   justify-content: space-around;
+   padding: 50px;
+}
+
+.phone1 {
+    width: auto;
+    height: 200px;
+}
+.phone2 {
+    width: auto;
+    height: 200px;
+}
+.phone3 {
+    width: auto;
+    height: 200px;
+}
+
+.phonesh2 {
+    text-shadow: 10px 10px 25px rgb(255, 69, 0);
+    text-align: center;
+    align-self: center;
+}
+
+#mainmenu{
+    padding: 30px;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#minutes{
+    padding: 30px;
+}
+
+#credit{
+    padding: 30px;
+}
