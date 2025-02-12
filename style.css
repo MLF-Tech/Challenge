@@ -49,3 +49,43 @@ nav ul li a:visited{
     border-radius: 20%;
     box-shadow: 10px 10px 30px 20px rgb(89, 0, 204);
 }
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 50px;
+    width: auto;
+    padding: 30px;
+    text-align: center;
+
+    background-image: url('https://media.istockphoto.com/id/466656290/it/foto/netwroking-sociale.jpg?s=612x612&w=0&k=20&c=QFwy9Mf21e0-suJtpg8cRsWUj48amkMUKwCQeHXCfvk=');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    border: 2px solid grey;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 69, 0);
+    text-transform: uppercase;
+    text-shadow: 10px 10px 25px rgb(255, 69, 0);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgba(17, 168, 102, 0.5);
+    font-style: italic;
+}
