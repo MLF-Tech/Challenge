@@ -45,6 +45,7 @@ nav ul li a:visited{
 
 .logo {
     display: flex;
+    width: 100px;
     border: 3px solid rgb(89, 0, 204);
     border-radius: 20%;
     box-shadow: 10px 10px 30px 20px rgb(89, 0, 204);
@@ -89,3 +90,21 @@ h2 {
     color: rgba(17, 168, 102, 0.5);
     font-style: italic;
 }
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn{
+    background-color: rgb(87, 87, 193);
+    color: white;
+    font-size: 1.5rem;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px rgb(89, 0, 204);
+    cursor: pointer;
+}
+
