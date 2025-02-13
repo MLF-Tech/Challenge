@@ -80,7 +80,6 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     color: rgb(255, 69, 0);
-    text-transform: uppercase;
     text-shadow: 10px 10px 25px rgb(255, 69, 0);
     letter-spacing: 5px;
     margin-bottom: 10px;
@@ -139,21 +138,43 @@ h2 {
 }
 
 #mainmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 30px;
-    text-align: center;
+    text-align:center;
 }
+
 
 .login {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+.minutes{
+    padding-top: 20px;
+}
+
+.phone {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     gap: 5px;
+    
+}
+
+.credit{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 15;
+    margin-top: 10px;
+    text-align: center;
     padding: 20px;
 }
 
-#minutes{
-    padding: 30px;
-}
-
-#credit{
-    padding: 30px;
+.phonecr {
+    padding: 15px;
+    gap: 10px;
 }

@@ -53,39 +53,101 @@
     <hr />
 
     <section id="mainmenu">
-      <div>
+      <div class="usage">
         <h2>Check your usage</h2>
         <p>Login to have a complete overview on your usage details.</p>
       </div>
 
       <div class="login">
         <form>
-          <label for="email"></label>
+          <label for="email">Write your Email address</label>
           <input type="email" name="Email" placeholder="jdoe@email.com" />
         </form>
+
         <form>
-          <label for="password"></label>
+          <label for="password">Write your password</label>
           <input type="password" name="password" placeholder="password" />
         </form>
+
         <form>
           <label for="submit"></label>
-          <input type="submit" value="login" />
+          <input type="submit" value="Login" />
         </form>
       </div>
 
       <hr />
 
-      <div>
+      <div class="minutes">
         <h2>Remaining minutes</h2>
         <p>View how many minutes are left.</p>
       </div>
 
+      <div class="login">
+        <form>
+          <label for="email">Write your Email adress</label>
+          <input type="email" name="email" placeholder="jdoe@email.com" />
+        </form>
+
+        <form>
+          <label for="password">Write your password</label>
+          <input type="password" name="password" placeholder="password" />
+        </form>
+
+        <form>
+          <label for="submit"></label>
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+
+      <p>OR</p>
+
+      <div class="phone">
+        <form>
+          <label for="telephone">Write your telephone number</label>
+          <input
+            type="telephone"
+            name="telephone"
+            placeholder="+4301235678900"
+          />
+        </form>
+
+        <form>
+          <label for="fullname">Write your fullname</label>
+          <input type="fullname" name="fullname" placeholder="Jane Doe" />
+        </form>
+
+        <form>
+          <label for="submit"></label>
+          <input type="submit" />
+        </form>
+      </div>
+
       <hr />
 
-      <div>
+      <div class="credit">
         <h2>Purchase more credit</h2>
-        <p>Options to buy credit.</p>
+        <p>Choose your amount to top-up your credit.</p>
       </div>
+
+      <form class="phonecr">
+        <label for="telephone">Write your telephone number</label>
+        <input type="telephone" name="telephone" placeholder="+4301235678900" />
+      </form>
+
+      <form>
+        <label for="Top up">Select the amout to top up</label>
+        <select id="amount" name="amount">
+          <option value="10€" selected>10€</option>
+          <option value="20€">20€</option>
+          <option value="50€">50€</option>
+          <option value="100€">100€</option>
+        </select>
+      </form>
+
+      <form>
+        <label for="submit"></label>
+        <input type="submit" value="Submit" />
+      </form>
     </section>
   </body>
 </html>
