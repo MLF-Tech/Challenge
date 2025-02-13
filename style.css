@@ -178,3 +178,19 @@ h2 {
     padding: 15px;
     gap: 10px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 69, 0);
+    color: rgb(17, 168, 102)
+    padding: 5px;
+    height: 50px;
+  }
+
+  .footer-sectionlogo img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
